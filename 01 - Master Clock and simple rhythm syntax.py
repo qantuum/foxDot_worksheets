@@ -164,10 +164,10 @@ a1 >> play("<xo><[---]>", dur=1)
 
 # Examples of elaborate rhythms possible with FoxDot syntax, all taken from Tutorial 03, found in the Tutorials menu:
 
-a1 >> play("x-o[--------------]")
+a1 >> play("x-o[--------------]") # wow look at this weird 14-tuplet
 
-a1 >> play("x-o{-=[--][-o]}")
+a1 >> play("x-o{-=[--][-o]}") # random choice of 4 different things
 
-a1 >> play("(x[--])xu[--]")
+a1 >> play("(x[--])xu[--]") # lacing and fast notes
 
-a1 >> play("<X.x.><.-..><..#.><...V>")
+a1 >> play("<X.x.><.-..><..#.><...V>") # 4 layers
