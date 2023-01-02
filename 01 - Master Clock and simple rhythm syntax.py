@@ -153,6 +153,7 @@ a1 >> play("<xo><[---]>", dur=1)
 #  Clock.bpm
 #  Clock.meter
 #  print(Samples)
+#  default note length in the player: 1/2 (= 1/8th note)
 #  a1 >> play("x"), the sample symbols always are between quotation marks.
 #  a1 >> play("<x.o.><->"), you can layer multiple patterns using angled brackets.
 #  a1 >> play("x.[oo]."), the brackets allow to divide note length by how many characters there are in there.
