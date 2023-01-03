@@ -3,6 +3,7 @@
 # what's a FoxDot: https://github.com/Qirky/FoxDot
 # --------------------------------------------
 # Please evaluate these lines using Ctrl+Enter
+# disclaimer: unexpected effects may occur if you come back to previous lines.
 
 print(Clock.bpm)
 
@@ -70,10 +71,10 @@ a1 >> play("xo", dur=1)
 # All three lines produced the same output.
 # If you want, you can update your player duration so it returns to 1/2:
 
-a1.pitch = "x.o."
+a1.degree = "x.o."
 a1.dur = 1/2
 
-# pitch is also an attribute. Now we are using it to update phrases oustide of the play statement, but there's more to it later.
+# degree is also an attribute. Now we are using it to update phrases oustide of the play statement, but there's more to it later.
 
 Clock.clear()
 Clock.set_time(0)
@@ -100,7 +101,9 @@ a1 >> play("x.[oo].")
 # You can use the brackets to divide your rhytm in the number of characters present.
 # Here it is [oo], 2 characters, so it will play two 16th notes.
 
-a1.pitch = "x.[ooo]."
+a1.degree = "x.[ooo]."
+
+a1 >> play("x[ooo]",dur=1)
 
 # now it will play 8th triplets.
 
