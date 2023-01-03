@@ -4,6 +4,7 @@ Some FoxDot worksheets, organized in a slightly different way than what's usuall
 files are numerated so y'know where to start
 
 01 - tempo and rhythms
+
 02 - pitch and scales
 
 planned:
