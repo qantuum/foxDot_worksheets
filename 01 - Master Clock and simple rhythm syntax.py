@@ -103,9 +103,11 @@ a1 >> play("x.[oo].")
 
 a1.degree = "x.[ooo]."
 
+# now it will play 8th triplets
+
 a1 >> play("x[ooo]",dur=1)
 
-# now it will play 8th triplets.
+# now it will play 4th triplets.
 
 Clock.bpm=158
 Clock.clear
