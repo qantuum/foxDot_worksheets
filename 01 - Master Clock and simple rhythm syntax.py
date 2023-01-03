@@ -3,7 +3,7 @@
 # what's a FoxDot: https://github.com/Qirky/FoxDot
 # --------------------------------------------
 # Please evaluate these lines using Ctrl+Enter
-# disclaimer: unexpected effects may occur if you come back to previous lines.
+# disclaimer: unexpected effects may occur if you come back to previous lines, it is intended from top to bottom.
 
 print(Clock.bpm)
 
